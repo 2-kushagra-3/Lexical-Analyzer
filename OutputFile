@@ -1,0 +1,754 @@
+	 Token   No :01  |            #  ------->  |           Special Symbol    
+	 Token   No :02  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :03  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :04  |          std  ------->  |                 Keywords    
+	 Token   No :05  |            +  ------->  |                 Operator , ADD    
+	 Token   No :06  |            +  ------->  |                 Operator , ADD    
+	 Token   No :07  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :08  |            #  ------->  |           Special Symbol    
+	 Token   No :09  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :10  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :11  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :12  |            #  ------->  |           Special Symbol    
+	 Token   No :13  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :14  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :15  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :16  |            #  ------->  |           Special Symbol    
+	 Token   No :17  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :18  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :19  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :20  |            #  ------->  |           Special Symbol    
+	 Token   No :21  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :22  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :23  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :24  |            #  ------->  |           Special Symbol    
+	 Token   No :25  |       define  ------->  |  Pre-Processor Directive    
+	 Token   No :26  |            (  ------->  |           Special Symbol    
+	 Token   No :27  |            )  ------->  |           Special Symbol    
+	 Token   No :28  |         cout  ------->  |                 Keywords    
+	 Token   No :29  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :30  |            #  ------->  |           Special Symbol    
+	 Token   No :31  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :32  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :33  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :34  |        using  ------->  |                 Keywords    
+	 Token   No :35  |    namespace  ------->  |                 Keywords    
+	 Token   No :36  |          std  ------->  |                 Keywords    
+	 Token   No :37  |            ;  ------->  |           Special Symbol    
+	 Token   No :38  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :39  |            ,  ------->  |           Special Symbol    
+	 Token   No :40  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :41  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :42  |            R  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :43  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :44  |            (  ------->  |           Special Symbol    
+	 Token   No :45  |            )  ------->  |           Special Symbol    
+	 Token   No :46  |            {  ------->  |           Special Symbol    
+	 Token   No :47  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :48  |            ,  ------->  |           Special Symbol    
+	 Token   No :49  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :50  |            {  ------->  |           Special Symbol    
+	 Token   No :51  |            {  ------->  |           Special Symbol    
+	 Token   No :52  |            ;  ------->  |           Special Symbol    
+	 Token   No :53  |            {  ------->  |           Special Symbol    
+	 Token   No :54  |            }  ------->  |           Special Symbol    
+	 Token   No :55  |            (  ------->  |           Special Symbol    
+	 Token   No :56  |            )  ------->  |           Special Symbol    
+	 Token   No :57  |            ,  ------->  |           Special Symbol    
+	 Token   No :58  |            #  ------->  |           Special Symbol    
+	 Token   No :59  |            ,  ------->  |           Special Symbol    
+	 Token   No :60  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :61  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :62  |            }  ------->  |           Special Symbol    
+	 Token   No :63  |            ,  ------->  |           Special Symbol    
+	 Token   No :64  |            {  ------->  |           Special Symbol    
+	 Token   No :65  |          int  ------->  |                 Keywords    
+	 Token   No :66  |         char  ------->  |                 Keywords    
+	 Token   No :67  |        float  ------->  |                 Keywords    
+	 Token   No :68  |         bool  ------->  |                 Keywords    
+	 Token   No :69  |          cin  ------->  |                 Keywords    
+	 Token   No :70  |         cout  ------->  |                 Keywords    
+	 Token   No :71  |         main  ------->  |                 Keywords    
+	 Token   No :72  |        using  ------->  |                 Keywords    
+	 Token   No :73  |    namespace  ------->  |                 Keywords    
+	 Token   No :74  |          std  ------->  |                 Keywords    
+	 Token   No :75  |            ,  ------->  |           Special Symbol    
+	 Token   No :76  |            K  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :77  |            }  ------->  |           Special Symbol    
+	 Token   No :78  |            ,  ------->  |           Special Symbol    
+	 Token   No :79  |            {  ------->  |           Special Symbol    
+	 Token   No :80  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :81  |       define  ------->  |  Pre-Processor Directive    
+	 Token   No :82  |            ,  ------->  |           Special Symbol    
+	 Token   No :83  |            P  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :84  |            P  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :85  |            D  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :86  |            }  ------->  |           Special Symbol    
+	 Token   No :87  |            ,  ------->  |           Special Symbol    
+	 Token   No :88  |            {  ------->  |           Special Symbol    
+	 Token   No :89  |     iostream  ------->  |                  Library    
+	 Token   No :90  |          std  ------->  |                 Keywords    
+	 Token   No :91  |            ,  ------->  |           Special Symbol    
+	 Token   No :92  |            L  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :93  |            }  ------->  |           Special Symbol    
+	 Token   No :94  |            ,  ------->  |           Special Symbol    
+	 Token   No :95  |            {  ------->  |           Special Symbol    
+	 Token   No :96  |            *  ------->  |                 Operator , MUL    
+	 Token   No :97  |            +  ------->  |                 Operator , ADD    
+	 Token   No :98  |           >>  ------->  |                 Operator , INS    
+	 Token   No :99  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :100  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :101  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :102  |            ,  ------->  |           Special Symbol    
+	 Token   No :103  |            O  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :104  |            }  ------->  |           Special Symbol    
+	 Token   No :105  |            ,  ------->  |           Special Symbol    
+	 Token   No :106  |            {  ------->  |           Special Symbol    
+	 Token   No :107  |            0  ------->  |                  Integer    
+	 Token   No :108  |            9  ------->  |                  Integer    
+	 Token   No :109  |            +  ------->  |                 Operator , ADD    
+	 Token   No :110  |            ,  ------->  |           Special Symbol    
+	 Token   No :111  |            I  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :112  |            }  ------->  |           Special Symbol    
+	 Token   No :113  |            ,  ------->  |           Special Symbol    
+	 Token   No :114  |            {  ------->  |           Special Symbol    
+	 Token   No :115  |      include  ------->  |  Pre-Processor Directive    
+	 Token   No :116  |     iostream  ------->  |                  Library    
+	 Token   No :117  |          int  ------->  |                 Keywords    
+	 Token   No :118  |         main  ------->  |                 Keywords    
+	 Token   No :119  |          cin  ------->  |                 Keywords    
+	 Token   No :120  |         cout  ------->  |                 Keywords    
+	 Token   No :121  |            ;  ------->  |           Special Symbol    
+	 Token   No :122  |           >>  ------->  |                 Operator , INS    
+	 Token   No :123  |            ,  ------->  |           Special Symbol    
+	 Token   No :124  |            B  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :125  |            ;  ------->  |           Special Symbol    
+	 Token   No :126  |          cin  ------->  |                 Keywords    
+	 Token   No :127  |            +  ------->  |                 Operator , ADD    
+	 Token   No :128  |            ,  ------->  |           Special Symbol    
+	 Token   No :129  |            I  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :130  |            }  ------->  |           Special Symbol    
+	 Token   No :131  |            ,  ------->  |           Special Symbol    
+	 Token   No :132  |            {  ------->  |           Special Symbol    
+	 Token   No :133  |            A  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :134  |            Z  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :135  |            +  ------->  |                 Operator , ADD    
+	 Token   No :136  |            ,  ------->  |           Special Symbol    
+	 Token   No :137  |            V  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :138  |            }  ------->  |           Special Symbol    
+	 Token   No :139  |            ,  ------->  |           Special Symbol    
+	 Token   No :140  |            {  ------->  |           Special Symbol    
+	 Token   No :141  |            ,  ------->  |           Special Symbol    
+	 Token   No :142  |            }  ------->  |           Special Symbol    
+	 Token   No :143  |            ,  ------->  |           Special Symbol    
+	 Token   No :144  |            }  ------->  |           Special Symbol    
+	 Token   No :145  |            ;  ------->  |           Special Symbol    
+	 Token   No :146  |            ;  ------->  |           Special Symbol    
+	 Token   No :147  |            }  ------->  |           Special Symbol    
+	 Token   No :148  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :149  |            ,  ------->  |           Special Symbol    
+	 Token   No :150  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :151  |            ,  ------->  |           Special Symbol    
+	 Token   No :152  |           >>  ------->  |                 Operator , INS    
+	 Token   No :153  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :154  |            L  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :155  |            (  ------->  |           Special Symbol    
+	 Token   No :156  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :157  |            ,  ------->  |           Special Symbol    
+	 Token   No :158  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :159  |            ,  ------->  |           Special Symbol    
+	 Token   No :160  |            )  ------->  |           Special Symbol    
+	 Token   No :161  |            {  ------->  |           Special Symbol    
+	 Token   No :162  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :163  |            ,  ------->  |           Special Symbol    
+	 Token   No :164  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :165  |            ,  ------->  |           Special Symbol    
+	 Token   No :166  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :167  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :168  |            ;  ------->  |           Special Symbol    
+	 Token   No :169  |            (  ------->  |           Special Symbol    
+	 Token   No :170  |            (  ------->  |           Special Symbol    
+	 Token   No :171  |            )  ------->  |           Special Symbol    
+	 Token   No :172  |            ;  ------->  |           Special Symbol    
+	 Token   No :173  |            (  ------->  |           Special Symbol    
+	 Token   No :174  |            )  ------->  |           Special Symbol    
+	 Token   No :175  |            ;  ------->  |           Special Symbol    
+	 Token   No :176  |            +  ------->  |                 Operator , ADD    
+	 Token   No :177  |            +  ------->  |                 Operator , ADD    
+	 Token   No :178  |            )  ------->  |           Special Symbol    
+	 Token   No :179  |            {  ------->  |           Special Symbol    
+	 Token   No :180  |            (  ------->  |           Special Symbol    
+	 Token   No :181  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :182  |            )  ------->  |           Special Symbol    
+	 Token   No :183  |            ;  ------->  |           Special Symbol    
+	 Token   No :184  |            (  ------->  |           Special Symbol    
+	 Token   No :185  |            (  ------->  |           Special Symbol    
+	 Token   No :186  |            )  ------->  |           Special Symbol    
+	 Token   No :187  |            ,  ------->  |           Special Symbol    
+	 Token   No :188  |            (  ------->  |           Special Symbol    
+	 Token   No :189  |            )  ------->  |           Special Symbol    
+	 Token   No :190  |            ,  ------->  |           Special Symbol    
+	 Token   No :191  |            )  ------->  |           Special Symbol    
+	 Token   No :192  |            ;  ------->  |           Special Symbol    
+	 Token   No :193  |            (  ------->  |           Special Symbol    
+	 Token   No :194  |            )  ------->  |           Special Symbol    
+	 Token   No :195  |            ;  ------->  |           Special Symbol    
+	 Token   No :196  |       MAKING  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :197  |        PAIRS  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :198  |           OF  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :199  |       STRING  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :200  |           OF  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :201  |        REGEX  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :202  |            (  ------->  |           Special Symbol    
+	 Token   No :203  |            ;  ------->  |           Special Symbol    
+	 Token   No :204  |            ;  ------->  |           Special Symbol    
+	 Token   No :205  |            +  ------->  |                 Operator , ADD    
+	 Token   No :206  |            +  ------->  |                 Operator , ADD    
+	 Token   No :207  |            )  ------->  |           Special Symbol    
+	 Token   No :208  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :209  |            (  ------->  |           Special Symbol    
+	 Token   No :210  |            )  ------->  |           Special Symbol    
+	 Token   No :211  |            (  ------->  |           Special Symbol    
+	 Token   No :212  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :213  |            (  ------->  |           Special Symbol    
+	 Token   No :214  |            )  ------->  |           Special Symbol    
+	 Token   No :215  |            ,  ------->  |           Special Symbol    
+	 Token   No :216  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :217  |            )  ------->  |           Special Symbol    
+	 Token   No :218  |            ;  ------->  |           Special Symbol    
+	 Token   No :219  |            }  ------->  |           Special Symbol    
+	 Token   No :220  |            ;  ------->  |           Special Symbol    
+	 Token   No :221  |            }  ------->  |           Special Symbol    
+	 Token   No :222  |            L  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :223  |            (  ------->  |           Special Symbol    
+	 Token   No :224  |            )  ------->  |           Special Symbol    
+	 Token   No :225  |            {  ------->  |           Special Symbol    
+	 Token   No :226  |            (  ------->  |           Special Symbol    
+	 Token   No :227  |            *  ------->  |                 Operator , MUL    
+	 Token   No :228  |            )  ------->  |           Special Symbol    
+	 Token   No :229  |          MUL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :230  |            ;  ------->  |           Special Symbol    
+	 Token   No :231  |            (  ------->  |           Special Symbol    
+	 Token   No :232  |            +  ------->  |                 Operator , ADD    
+	 Token   No :233  |            )  ------->  |           Special Symbol    
+	 Token   No :234  |          ADD  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :235  |            ;  ------->  |           Special Symbol    
+	 Token   No :236  |            (  ------->  |           Special Symbol    
+	 Token   No :237  |           >>  ------->  |                 Operator , INS    
+	 Token   No :238  |            )  ------->  |           Special Symbol    
+	 Token   No :239  |          INS  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :240  |            ;  ------->  |           Special Symbol    
+	 Token   No :241  |            (  ------->  |           Special Symbol    
+	 Token   No :242  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :243  |            )  ------->  |           Special Symbol    
+	 Token   No :244  |         EXTR  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :245  |            ;  ------->  |           Special Symbol    
+	 Token   No :246  |            (  ------->  |           Special Symbol    
+	 Token   No :247  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :248  |            )  ------->  |           Special Symbol    
+	 Token   No :249  |        RSHFT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :250  |            ;  ------->  |           Special Symbol    
+	 Token   No :251  |            (  ------->  |           Special Symbol    
+	 Token   No :252  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :253  |            )  ------->  |           Special Symbol    
+	 Token   No :254  |        LSHFT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :255  |            ;  ------->  |           Special Symbol    
+	 Token   No :256  |            }  ------->  |           Special Symbol    
+	 Token   No :257  |          int  ------->  |                 Keywords    
+	 Token   No :258  |         main  ------->  |                 Keywords    
+	 Token   No :259  |            (  ------->  |           Special Symbol    
+	 Token   No :260  |            )  ------->  |           Special Symbol    
+	 Token   No :261  |            {  ------->  |           Special Symbol    
+	 Token   No :262  |            ;  ------->  |           Special Symbol    
+	 Token   No :263  |         cout  ------->  |                 Keywords    
+	 Token   No :264  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :265  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :266  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :267  |            ;  ------->  |           Special Symbol    
+	 Token   No :268  |         cout  ------->  |                 Keywords    
+	 Token   No :269  |            (  ------->  |           Special Symbol    
+	 Token   No :270  |            )  ------->  |           Special Symbol    
+	 Token   No :271  |            ;  ------->  |           Special Symbol    
+	 Token   No :272  |         cout  ------->  |                 Keywords    
+	 Token   No :273  |            (  ------->  |           Special Symbol    
+	 Token   No :274  |          100  ------->  |                  Integer    
+	 Token   No :275  |            )  ------->  |           Special Symbol    
+	 Token   No :276  |            ;  ------->  |           Special Symbol    
+	 Token   No :277  |            (  ------->  |           Special Symbol    
+	 Token   No :278  |            O  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :279  |            F  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :280  |            )  ------->  |           Special Symbol    
+	 Token   No :281  |            ;  ------->  |           Special Symbol    
+	 Token   No :282  |         char  ------->  |                 Keywords    
+	 Token   No :283  |            ;  ------->  |           Special Symbol    
+	 Token   No :284  |            ;  ------->  |           Special Symbol    
+	 Token   No :285  |         cout  ------->  |                 Keywords    
+	 Token   No :286  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :287  |        ENTER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :288  |          THE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :289  |       SOURCE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :290  |         CODE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :291  |         FILE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :292  |         NAME  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :293  |            E  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :294  |            ;  ------->  |           Special Symbol    
+	 Token   No :295  |          cin  ------->  |                 Keywords    
+	 Token   No :296  |           >>  ------->  |                 Operator , INS    
+	 Token   No :297  |            ;  ------->  |           Special Symbol    
+	 Token   No :298  |            (  ------->  |           Special Symbol    
+	 Token   No :299  |            ,  ------->  |           Special Symbol    
+	 Token   No :300  |            )  ------->  |           Special Symbol    
+	 Token   No :301  |            ;  ------->  |           Special Symbol    
+	 Token   No :302  |            ;  ------->  |           Special Symbol    
+	 Token   No :303  |            F  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :304  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :305  |            C  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :306  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :307  |            (  ------->  |           Special Symbol    
+	 Token   No :308  |            (  ------->  |           Special Symbol    
+	 Token   No :309  |            )  ------->  |           Special Symbol    
+	 Token   No :310  |            )  ------->  |           Special Symbol    
+	 Token   No :311  |            {  ------->  |           Special Symbol    
+	 Token   No :312  |            (  ------->  |           Special Symbol    
+	 Token   No :313  |           >>  ------->  |                 Operator , INS    
+	 Token   No :314  |           >>  ------->  |                 Operator , INS    
+	 Token   No :315  |            )  ------->  |           Special Symbol    
+	 Token   No :316  |            +  ------->  |                 Operator , ADD    
+	 Token   No :317  |            ;  ------->  |           Special Symbol    
+	 Token   No :318  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :319  |       define  ------->  |  Pre-Processor Directive    
+	 Token   No :320  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :321  |            ,  ------->  |           Special Symbol    
+	 Token   No :322  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :323  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :324  |            R  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :325  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :326  |            (  ------->  |           Special Symbol    
+	 Token   No :327  |            )  ------->  |           Special Symbol    
+	 Token   No :328  |            ;  ------->  |           Special Symbol    
+	 Token   No :329  |            *  ------->  |                 Operator , MUL    
+	 Token   No :330  |    DECLARING  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :331  |          MAP  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :332  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :333  |            C  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :334  |            D  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :335  |            P  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :336  |            R  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :337  |            *  ------->  |                 Operator , MUL    
+	 Token   No :338  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :339  |            ,  ------->  |           Special Symbol    
+	 Token   No :340  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :341  |            ,  ------->  |           Special Symbol    
+	 Token   No :342  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :343  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :344  |            M  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :345  |            L  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :346  |            (  ------->  |           Special Symbol    
+	 Token   No :347  |            ,  ------->  |           Special Symbol    
+	 Token   No :348  |            )  ------->  |           Special Symbol    
+	 Token   No :349  |            ;  ------->  |           Special Symbol    
+	 Token   No :350  |            W  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :351  |            F  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :352  |          int  ------->  |                 Keywords    
+	 Token   No :353  |            1  ------->  |                  Integer    
+	 Token   No :354  |            ;  ------->  |           Special Symbol    
+	 Token   No :355  |         cout  ------->  |                 Keywords    
+	 Token   No :356  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :357  |            ;  ------->  |           Special Symbol    
+	 Token   No :358  |         cout  ------->  |                 Keywords    
+	 Token   No :359  |            (  ------->  |           Special Symbol    
+	 Token   No :360  |           40  ------->  |                  Integer    
+	 Token   No :361  |            )  ------->  |           Special Symbol    
+	 Token   No :362  |            ;  ------->  |           Special Symbol    
+	 Token   No :363  |         cout  ------->  |                 Keywords    
+	 Token   No :364  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :365  |       NUMBER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :366  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :367  |            (  ------->  |           Special Symbol    
+	 Token   No :368  |           10  ------->  |                  Integer    
+	 Token   No :369  |            )  ------->  |           Special Symbol    
+	 Token   No :370  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :371  |        TOKEN  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :372  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :373  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :374  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :375  |            (  ------->  |           Special Symbol    
+	 Token   No :376  |           20  ------->  |                  Integer    
+	 Token   No :377  |            )  ------->  |           Special Symbol    
+	 Token   No :378  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :379  |      PATTERN  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :380  |            ;  ------->  |           Special Symbol    
+	 Token   No :381  |         cout  ------->  |                 Keywords    
+	 Token   No :382  |            (  ------->  |           Special Symbol    
+	 Token   No :383  |            )  ------->  |           Special Symbol    
+	 Token   No :384  |            ;  ------->  |           Special Symbol    
+	 Token   No :385  |         cout  ------->  |                 Keywords    
+	 Token   No :386  |            (  ------->  |           Special Symbol    
+	 Token   No :387  |           40  ------->  |                  Integer    
+	 Token   No :388  |            )  ------->  |           Special Symbol    
+	 Token   No :389  |            ;  ------->  |           Special Symbol    
+	 Token   No :390  |         cout  ------->  |                 Keywords    
+	 Token   No :391  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :392  |            ;  ------->  |           Special Symbol    
+	 Token   No :393  |         cout  ------->  |                 Keywords    
+	 Token   No :394  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :395  |   PROCESSING  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :396  |       SOURCE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :397  |         CODE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :398  |            ;  ------->  |           Special Symbol    
+	 Token   No :399  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :400  |            (  ------->  |           Special Symbol    
+	 Token   No :401  |         5000  ------->  |                  Integer    
+	 Token   No :402  |            )  ------->  |           Special Symbol    
+	 Token   No :403  |            ;  ------->  |           Special Symbol    
+	 Token   No :404  |            (  ------->  |           Special Symbol    
+	 Token   No :405  |            (  ------->  |           Special Symbol    
+	 Token   No :406  |            )  ------->  |           Special Symbol    
+	 Token   No :407  |            ;  ------->  |           Special Symbol    
+	 Token   No :408  |            (  ------->  |           Special Symbol    
+	 Token   No :409  |            )  ------->  |           Special Symbol    
+	 Token   No :410  |            ;  ------->  |           Special Symbol    
+	 Token   No :411  |            +  ------->  |                 Operator , ADD    
+	 Token   No :412  |            +  ------->  |                 Operator , ADD    
+	 Token   No :413  |            )  ------->  |           Special Symbol    
+	 Token   No :414  |            {  ------->  |           Special Symbol    
+	 Token   No :415  |            (  ------->  |           Special Symbol    
+	 Token   No :416  |            (  ------->  |           Special Symbol    
+	 Token   No :417  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :418  |            )  ------->  |           Special Symbol    
+	 Token   No :419  |            (  ------->  |           Special Symbol    
+	 Token   No :420  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :421  |            )  ------->  |           Special Symbol    
+	 Token   No :422  |            )  ------->  |           Special Symbol    
+	 Token   No :423  |            {  ------->  |           Special Symbol    
+	 Token   No :424  |            (  ------->  |           Special Symbol    
+	 Token   No :425  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :426  |            V  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :427  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :428  |            I  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :429  |            )  ------->  |           Special Symbol    
+	 Token   No :430  |            {  ------->  |           Special Symbol    
+	 Token   No :431  |         cout  ------->  |                 Keywords    
+	 Token   No :432  |            (  ------->  |           Special Symbol    
+	 Token   No :433  |           40  ------->  |                  Integer    
+	 Token   No :434  |            )  ------->  |           Special Symbol    
+	 Token   No :435  |            ;  ------->  |           Special Symbol    
+	 Token   No :436  |            (  ------->  |           Special Symbol    
+	 Token   No :437  |            <  ------->  |                 Operator , LSHFT    
+	 Token   No :438  |           10  ------->  |                  Integer    
+	 Token   No :439  |            )  ------->  |           Special Symbol    
+	 Token   No :440  |            {  ------->  |           Special Symbol    
+	 Token   No :441  |            (  ------->  |           Special Symbol    
+	 Token   No :442  |            )  ------->  |           Special Symbol    
+	 Token   No :443  |            ;  ------->  |           Special Symbol    
+	 Token   No :444  |            0  ------->  |                  Integer    
+	 Token   No :445  |            +  ------->  |                 Operator , ADD    
+	 Token   No :446  |            ;  ------->  |           Special Symbol    
+	 Token   No :447  |         cout  ------->  |                 Keywords    
+	 Token   No :448  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :449  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :450  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :451  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :452  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :453  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :454  |            (  ------->  |           Special Symbol    
+	 Token   No :455  |           10  ------->  |                  Integer    
+	 Token   No :456  |            )  ------->  |           Special Symbol    
+	 Token   No :457  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :458  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :459  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :460  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :461  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :462  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :463  |            (  ------->  |           Special Symbol    
+	 Token   No :464  |           25  ------->  |                  Integer    
+	 Token   No :465  |            )  ------->  |           Special Symbol    
+	 Token   No :466  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :467  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :468  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :469  |            (  ------->  |           Special Symbol    
+	 Token   No :470  |           18  ------->  |                  Integer    
+	 Token   No :471  |            )  ------->  |           Special Symbol    
+	 Token   No :472  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :473  |            ,  ------->  |           Special Symbol    
+	 Token   No :474  |      POINTER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :475  |           TO  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :476  |       SYMBOL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :477  |        TABLE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :478  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :479  |            ;  ------->  |           Special Symbol    
+	 Token   No :480  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :481  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :482  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :483  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :484  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :485  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :486  |            (  ------->  |           Special Symbol    
+	 Token   No :487  |           10  ------->  |                  Integer    
+	 Token   No :488  |            )  ------->  |           Special Symbol    
+	 Token   No :489  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :490  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :491  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :492  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :493  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :494  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :495  |            (  ------->  |           Special Symbol    
+	 Token   No :496  |           25  ------->  |                  Integer    
+	 Token   No :497  |            )  ------->  |           Special Symbol    
+	 Token   No :498  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :499  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :500  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :501  |            (  ------->  |           Special Symbol    
+	 Token   No :502  |           18  ------->  |                  Integer    
+	 Token   No :503  |            )  ------->  |           Special Symbol    
+	 Token   No :504  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :505  |            ,  ------->  |           Special Symbol    
+	 Token   No :506  |      POINTER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :507  |           TO  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :508  |       SYMBOL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :509  |        TABLE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :510  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :511  |            ;  ------->  |           Special Symbol    
+	 Token   No :512  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :513  |            (  ------->  |           Special Symbol    
+	 Token   No :514  |         1500  ------->  |                  Integer    
+	 Token   No :515  |            )  ------->  |           Special Symbol    
+	 Token   No :516  |            ;  ------->  |           Special Symbol    
+	 Token   No :517  |            }  ------->  |           Special Symbol    
+	 Token   No :518  |            {  ------->  |           Special Symbol    
+	 Token   No :519  |         cout  ------->  |                 Keywords    
+	 Token   No :520  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :521  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :522  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :523  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :524  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :525  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :526  |            (  ------->  |           Special Symbol    
+	 Token   No :527  |           10  ------->  |                  Integer    
+	 Token   No :528  |            )  ------->  |           Special Symbol    
+	 Token   No :529  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :530  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :531  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :532  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :533  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :534  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :535  |            (  ------->  |           Special Symbol    
+	 Token   No :536  |           25  ------->  |                  Integer    
+	 Token   No :537  |            )  ------->  |           Special Symbol    
+	 Token   No :538  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :539  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :540  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :541  |            (  ------->  |           Special Symbol    
+	 Token   No :542  |           18  ------->  |                  Integer    
+	 Token   No :543  |            )  ------->  |           Special Symbol    
+	 Token   No :544  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :545  |            ,  ------->  |           Special Symbol    
+	 Token   No :546  |      POINTER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :547  |           TO  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :548  |       SYMBOL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :549  |        TABLE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :550  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :551  |            ;  ------->  |           Special Symbol    
+	 Token   No :552  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :553  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :554  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :555  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :556  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :557  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :558  |            (  ------->  |           Special Symbol    
+	 Token   No :559  |           10  ------->  |                  Integer    
+	 Token   No :560  |            )  ------->  |           Special Symbol    
+	 Token   No :561  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :562  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :563  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :564  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :565  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :566  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :567  |            (  ------->  |           Special Symbol    
+	 Token   No :568  |           25  ------->  |                  Integer    
+	 Token   No :569  |            )  ------->  |           Special Symbol    
+	 Token   No :570  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :571  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :572  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :573  |            (  ------->  |           Special Symbol    
+	 Token   No :574  |           18  ------->  |                  Integer    
+	 Token   No :575  |            )  ------->  |           Special Symbol    
+	 Token   No :576  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :577  |            ,  ------->  |           Special Symbol    
+	 Token   No :578  |      POINTER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :579  |           TO  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :580  |       SYMBOL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :581  |        TABLE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :582  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :583  |            ;  ------->  |           Special Symbol    
+	 Token   No :584  |            S  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :585  |            (  ------->  |           Special Symbol    
+	 Token   No :586  |         1500  ------->  |                  Integer    
+	 Token   No :587  |            )  ------->  |           Special Symbol    
+	 Token   No :588  |            ;  ------->  |           Special Symbol    
+	 Token   No :589  |            }  ------->  |           Special Symbol    
+	 Token   No :590  |            +  ------->  |                 Operator , ADD    
+	 Token   No :591  |            +  ------->  |                 Operator , ADD    
+	 Token   No :592  |            ;  ------->  |           Special Symbol    
+	 Token   No :593  |            }  ------->  |           Special Symbol    
+	 Token   No :594  |            {  ------->  |           Special Symbol    
+	 Token   No :595  |            (  ------->  |           Special Symbol    
+	 Token   No :596  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :597  |            O  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :598  |            )  ------->  |           Special Symbol    
+	 Token   No :599  |            {  ------->  |           Special Symbol    
+	 Token   No :600  |         cout  ------->  |                 Keywords    
+	 Token   No :601  |            (  ------->  |           Special Symbol    
+	 Token   No :602  |           40  ------->  |                  Integer    
+	 Token   No :603  |            )  ------->  |           Special Symbol    
+	 Token   No :604  |            ;  ------->  |           Special Symbol    
+	 Token   No :605  |            L  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :606  |            (  ------->  |           Special Symbol    
+	 Token   No :607  |            >  ------->  |                 Operator , RSHFT    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     	 Token   No :813  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :814  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :815  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :816  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :817  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :818  |            (  ------->  |           Special Symbol    
+	 Token   No :819  |           10  ------->  |                  Integer    
+	 Token   No :820  |            )  ------->  |           Special Symbol    
+	 Token   No :821  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :822  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :823  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :824  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :825  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :826  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :827  |            (  ------->  |           Special Symbol    
+	 Token   No :828  |           25  ------->  |                  Integer    
+	 Token   No :829  |            )  ------->  |           Special Symbol    
+	 Token   No :830  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :831  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :832  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :833  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :834  |            ;  ------->  |           Special Symbol    
+	 Token   No :835  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :836  |            T  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :837  |            N  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :838  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :839  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :840  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :841  |            (  ------->  |           Special Symbol    
+	 Token   No :842  |           10  ------->  |                  Integer    
+	 Token   No :843  |            )  ------->  |           Special Symbol    
+	 Token   No :844  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :845  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :846  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :847  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :848  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :849  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :850  |            (  ------->  |           Special Symbol    
+	 Token   No :851  |           25  ------->  |                  Integer    
+	 Token   No :852  |            )  ------->  |           Special Symbol    
+	 Token   No :853  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :854  |            >  ------->  |                 Operator , RSHFT    
+	 Token   No :855  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :856  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :857  |            ;  ------->  |           Special Symbol    
+	 Token   No :858  |            +  ------->  |                 Operator , ADD    
+	 Token   No :859  |            +  ------->  |                 Operator , ADD    
+	 Token   No :860  |            ;  ------->  |           Special Symbol    
+	 Token   No :861  |            }  ------->  |           Special Symbol    
+	 Token   No :862  |            }  ------->  |           Special Symbol    
+	 Token   No :863  |            }  ------->  |           Special Symbol    
+	 Token   No :864  |            }  ------->  |           Special Symbol    
+	 Token   No :865  |            }  ------->  |           Special Symbol    
+	 Token   No :866  |            ;  ------->  |           Special Symbol    
+	 Token   No :867  |            (  ------->  |           Special Symbol    
+	 Token   No :868  |         EXIT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :869  |            )  ------->  |           Special Symbol    
+	 Token   No :870  |            {  ------->  |           Special Symbol    
+	 Token   No :871  |         cout  ------->  |                 Keywords    
+	 Token   No :872  |            (  ------->  |           Special Symbol    
+	 Token   No :873  |            )  ------->  |           Special Symbol    
+	 Token   No :874  |            ;  ------->  |           Special Symbol    
+	 Token   No :875  |         cout  ------->  |                 Keywords    
+	 Token   No :876  |            (  ------->  |           Special Symbol    
+	 Token   No :877  |           40  ------->  |                  Integer    
+	 Token   No :878  |            )  ------->  |           Special Symbol    
+	 Token   No :879  |            ;  ------->  |           Special Symbol    
+	 Token   No :880  |         cout  ------->  |                 Keywords    
+	 Token   No :881  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :882  |        PRESS  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :883  |         TYPE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :884  |         EXIT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :885  |           TO  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :886  |        CLOSE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :887  |       WINDOW  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :888  |         NOTE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :889  |           AN  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :890  |       OUTPUT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :891  |         FILE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :892  |         WILL  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :893  |           BE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :894  |    GENERATED  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :895  |           IN  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :896  |          THE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :897  |         SAME  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :898  |       FOLDER  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :899  |           AS  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :900  |            O  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :901  |            ;  ------->  |           Special Symbol    
+	 Token   No :902  |          cin  ------->  |                 Keywords    
+	 Token   No :903  |            (  ------->  |           Special Symbol    
+	 Token   No :904  |           40  ------->  |                  Integer    
+	 Token   No :905  |            )  ------->  |           Special Symbol    
+	 Token   No :906  |            ;  ------->  |           Special Symbol    
+	 Token   No :907  |          cin  ------->  |                 Keywords    
+	 Token   No :908  |           >>  ------->  |                 Operator , INS    
+	 Token   No :909  |            ;  ------->  |           Special Symbol    
+	 Token   No :910  |            (  ------->  |           Special Symbol    
+	 Token   No :911  |         EXIT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :912  |            E  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :913  |            )  ------->  |           Special Symbol    
+	 Token   No :914  |            ;  ------->  |           Special Symbol    
+	 Token   No :915  |            {  ------->  |           Special Symbol    
+	 Token   No :916  |         cout  ------->  |                 Keywords    
+	 Token   No :917  |            (  ------->  |           Special Symbol    
+	 Token   No :918  |            )  ------->  |           Special Symbol    
+	 Token   No :919  |            ;  ------->  |           Special Symbol    
+	 Token   No :920  |         cout  ------->  |                 Keywords    
+	 Token   No :921  |            (  ------->  |           Special Symbol    
+	 Token   No :922  |           40  ------->  |                  Integer    
+	 Token   No :923  |            )  ------->  |           Special Symbol    
+	 Token   No :924  |            ;  ------->  |           Special Symbol    
+	 Token   No :925  |         cout  ------->  |                 Keywords    
+	 Token   No :926  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :927  |            P  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :928  |            ;  ------->  |           Special Symbol    
+	 Token   No :929  |          cin  ------->  |                 Keywords    
+	 Token   No :930  |            (  ------->  |           Special Symbol    
+	 Token   No :931  |           10  ------->  |                  Integer    
+	 Token   No :932  |            )  ------->  |           Special Symbol    
+	 Token   No :933  |            ;  ------->  |           Special Symbol    
+	 Token   No :934  |          cin  ------->  |                 Keywords    
+	 Token   No :935  |           >>  ------->  |                 Operator , INS    
+	 Token   No :936  |            ;  ------->  |           Special Symbol    
+	 Token   No :937  |            }  ------->  |           Special Symbol    
+	 Token   No :938  |            }  ------->  |           Special Symbol    
+	 Token   No :939  |            }  ------->  |           Special Symbol    
+	 Token   No :940  |            {  ------->  |           Special Symbol    
+	 Token   No :941  |         cout  ------->  |                 Keywords    
+	 Token   No :942  |            (  ------->  |           Special Symbol    
+	 Token   No :943  |            )  ------->  |           Special Symbol    
+	 Token   No :944  |            ;  ------->  |           Special Symbol    
+	 Token   No :945  |         cout  ------->  |                 Keywords    
+	 Token   No :946  |            (  ------->  |           Special Symbol    
+	 Token   No :947  |           40  ------->  |                  Integer    
+	 Token   No :948  |            )  ------->  |           Special Symbol    
+	 Token   No :949  |            ;  ------->  |           Special Symbol    
+	 Token   No :950  |         cout  ------->  |                 Keywords    
+	 Token   No :951  |           <<  ------->  |                 Operator , EXTR    
+	 Token   No :952  |         FILE  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :953  |          NOT  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :954  |        FOUND  ------->  |                 Variable ,  POINTER TO SYMBOL TABLE    
+	 Token   No :955  |            ;  ------->  |           Special Symbol    
+	 Token   No :956  |            }  ------->  |           Special Symbol    
+	 Token   No :957  |            0  ------->  |                  Integer    
+	 Token   No :958  |            ;  ------->  |           Special Symbol    
+	 Token   No :959  |            }  ------->  |           Special Symbol    
